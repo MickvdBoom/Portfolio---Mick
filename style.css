@@ -1,0 +1,140 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #cccccc;
+    margin: 0;
+}
+
+.overzicht div {
+    position: relative;
+}
+
+.overzicht {
+    display: flex;
+    gap: 1em;
+    overflow: scroll;
+    padding-bottom: 2em;
+}
+
+.overzicht img {
+    width: 29em;
+    border: 2px solid black;
+}
+
+.overzicht div h3 {
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.overzicht h3:hover {
+    background-color: black;
+    padding-right: 40px;
+    transition: 0.5s;
+    color: white;
+}
+
+header h3 {
+    text-align: center;
+}
+
+.intro img {
+    width: 40%;
+}
+
+.intro {
+    display: flex;
+    margin-bottom: 10em;
+    margin-left: 10px;
+}
+
+.intro div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro > div {
+    width: 65%;
+}
+
+p {
+    font-size: large;
+}
+
+header div img {
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home > img {
+    width: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home h1 {
+    background-color: gainsboro;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+}
+
+main, .overzicht {
+    background-color: gainsboro;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+
+.collage1 img {
+    width: 45vw;
+    border: 2px solid black;
+}
+
+.collage1 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3em;
+    padding: 10px;
+    top: 0px;
+    padding: 1vw;
+}
+
+.collage2 {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 20px;
+    padding: 1vw;
+}
+
+.collage2 img {
+    width: 45vw;
+    border: 2px solid black;
+}
+
+.collage3 {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 20px;
+    padding: 1vw;
+    padding-bottom: 5em;
+}
+
+.collage3 img {
+    width: 20em;
+    border: 2px solid black;
+}
